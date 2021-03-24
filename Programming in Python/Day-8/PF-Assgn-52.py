@@ -12,7 +12,7 @@ def sum_of_numbers(list_of_num,filter_func=None):
 def even(data):
     e=[]
     for num in data:
-        if num%2!=0:
+        if num%2==0:
             e.append(num)
     return e
 
